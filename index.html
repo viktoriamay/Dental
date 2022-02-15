@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+    <title>Dental</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__header">
+            <div class="container">
+                <div class="header__menu">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header__menu-icon">
+                        <span></span>
+                    </div>
+
+                    <nav class="header__menu-list">
+                        <ul class="header__menu-list-items">
+                            <li class="header__menu-list-item">
+                                <a data-goto=".header__content" href="#" class="header__menu-link header__menu-link--hover">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__menu-list-item">
+                                <a data-goto=".about" href="#" class="header__menu-link header__menu-link--hover">
+                                    About
+                                </a>
+                            </li>
+                            <li class="header__menu-list-item">
+                                <a data-goto=".services" href="#" class="header__menu-link header__menu-link--hover">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="header__menu-list-item">
+                                <a data-goto=".appointment" href="#" class="header__menu-link header__menu-link--hover">
+                                    Appointment
+                                </a>
+                            </li>
+                            <li class="header__menu-list-item _remove">
+                                <a href="#" class="header__btn-link-mobile">
+                                    Sign Up
+                                </a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <a href="#" class="header__btn btn">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="header__content">
+        <div class="header__content-info">
+            <div class="header__content-container">
+                <div class="header__content-body">
+                    <h1 class="header__content-title">
+                        We Care About Your Dental Health.
+                    </h1>
+                    <p class="header__content-text main-text">
+                        Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth, free of infections, injuries and other problems.
+                    </p>
+                    <a href="#" data-goto=".appointment" class="header__content-btn btn header__menu-link">
+                        Appoinment
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__content-image">
+            <img src="img/header_img.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__image">
+                    <img src="img/about.jpg" alt="">
+                </div>
+                <div class="about__info">
+                    <span class="about__subtitle subtitle">
+                        About Us
+                    </span>
+                    <h2 class="about__title">
+                        Best Dental Clinic You Can Trust.
+                    </h2>
+                    <p class="about__text main-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molesed erat tortor quis. Enim id lobortis massa egestas tortor ac ultrices semper. 
+                    </p>
+                    <div class="about__offer-item">
+                        <div class="offer-item-btn offer-item-btn--1">
+                            <img src="img/about-icon1.svg" alt="">
+                        </div>
+                        <div class="offer-item-info">
+                            <h5 class="offer-item__title">
+                                Complete Dental Care
+                            </h5>
+                            <p class="offer-item__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit cursus.  
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__offer-item">
+                        <div class="offer-item-btn offer-item-btn--2">
+                            <img src="img/about-icon2.svg" alt="">
+                        </div>
+                        <div class="offer-item-info">
+                            <h5 class="offer-item__title">
+                                Affordable Price
+                            </h5>
+                            <p class="offer-item__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit cursus.  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2 class="services__title">
+                Our Dental Services
+            </h2>
+            <p class="services__text main-text">
+                Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth, free of infections, injuries and other problems with
+            </p>
+            <div class="services__row">
+                <div class="services__column">
+                    <a href="#" class="services__item">
+                        <div class="services-item__icon-container">
+                            <svg width="76" height="85" viewBox="0 0 76 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M46.0594 16.5209C44.5182 16.7345 42.9271 17.1509 41.1973 17.7916C38.7235 18.7099 36.5131 18.7099 34.0358 17.7916C32.3237 17.158 30.6935 16.7309 29.1808 16.5209C23.8844 15.7699 19.9121 18.4038 18.3211 23.4759C17.2034 27.0602 17.2604 30.3278 18.5097 33.4778C18.7767 34.147 19.0614 34.8126 19.3462 35.4782C19.8801 36.7275 20.4354 38.016 20.8055 39.3045C21.4 41.3619 21.7772 43.3872 21.9374 45.3199C22.0798 47.0889 22.1403 48.8615 22.1937 50.6376C22.2684 52.8124 22.3432 55.0655 22.571 57.283C22.9234 60.7641 23.8061 65.0923 27.5399 67.6978C29.3623 68.9614 31.3235 68.8937 32.9146 67.502C35.5165 65.2276 35.6446 62.0099 35.4631 59.4507L35.3777 58.2903C35.2282 56.29 35.0751 54.2219 35.157 52.2856C35.2139 50.9117 35.5343 49.4168 36.0931 47.9503C36.3565 47.242 37.1645 47.1352 37.6236 47.1352C38.0757 47.1352 38.873 47.242 39.1435 47.9539C39.6917 49.4239 40.0156 50.9188 40.0725 52.2821C40.1544 54.2255 40.0013 56.3006 39.8483 58.3473L39.7664 59.4542C39.5849 62.0028 39.7059 65.2205 42.322 67.5056C43.1763 68.2459 44.0199 68.577 45.0557 68.577C45.9562 68.577 46.8425 68.2815 47.7003 67.6907C51.4163 65.0923 52.3026 60.7641 52.6585 57.2795C52.8827 55.0904 52.9611 52.8694 53.0358 50.6127C53.0892 48.8437 53.1461 47.0782 53.2885 45.3199C53.4522 43.3622 53.8331 41.3405 54.424 39.301C54.7941 38.0196 55.3458 36.7382 55.8833 35.496C56.1681 34.8268 56.4564 34.1505 56.7269 33.4707C57.9727 30.3242 58.0296 27.0567 56.9084 23.4759C55.3138 18.4038 51.2525 15.7734 46.0594 16.5209ZM53.4202 32.1537C53.1604 32.8015 52.8863 33.4458 52.6087 34.0865C52.057 35.3643 51.4305 36.8201 50.9998 38.3115C50.3413 40.5788 49.9178 42.8355 49.7398 45.0316C49.5903 46.854 49.5298 48.68 49.4693 50.5985C49.3981 52.6736 49.3269 54.8128 49.1134 56.92C48.8001 59.9597 48.1666 63.0208 45.6679 64.7649C45.2479 65.0603 45.1767 65.2774 44.657 64.8218C43.5144 63.8252 43.1229 62.3445 43.3151 59.7212L43.4005 58.5715C43.5536 56.4644 43.7173 54.2896 43.6248 52.1326C43.55 50.4027 43.1478 48.5234 42.468 46.7081C41.7419 44.7789 39.8839 43.5794 37.6201 43.5794C35.335 43.5794 33.4698 44.7824 32.758 46.7045C32.0746 48.5127 31.6723 50.3885 31.5976 52.1326C31.5086 54.2789 31.6723 56.4501 31.829 58.5929L31.9108 59.707C32.0995 62.3409 31.7079 63.8181 30.5689 64.8182C30.0457 65.281 29.9781 65.0532 29.5723 64.772C27.0558 63.0172 26.4222 59.9597 26.1126 56.92C25.8955 54.7843 25.8207 52.6167 25.7531 50.5166C25.689 48.6835 25.6321 46.8576 25.4826 45.0316C25.3082 42.8604 24.8846 40.6002 24.2225 38.3115C23.7919 36.8094 23.1654 35.3536 22.6173 34.0722C22.3432 33.4315 22.0727 32.7944 21.8164 32.1573C20.8838 29.8045 20.8518 27.313 21.7167 24.5366C22.8095 21.0733 25.2085 19.5606 28.686 20.0447C29.946 20.2227 31.3306 20.5857 32.7971 21.1303C36.0718 22.3476 39.1577 22.3476 42.4324 21.1303C43.9202 20.5786 45.2657 20.2227 46.5506 20.0447C50.7791 19.4609 52.7795 22.2195 53.5092 24.5402C54.3813 27.3094 54.3492 29.8045 53.4202 32.1537Z" fill="#" fill-opacity="#"/>
+                                <path d="M75.1005 23.9458C75.1218 21.3652 75.1432 18.7847 75.1432 16.2077V12.8263C75.1432 11.851 74.7303 10.9113 74.0077 10.2528C73.3635 9.66552 72.552 9.33806 71.3382 9.3523C57.8303 10.5945 48.01 7.92854 39.8554 0.834677C38.5918 -0.279412 36.5345 -0.275853 35.278 0.831117C28.4582 6.77174 20.0866 9.66196 9.6789 9.66196C7.82445 9.66196 5.85967 9.57298 3.55675 9.38789C2.66334 9.38789 1.81977 9.71535 1.18263 10.3062C0.467197 10.9647 0.0578671 11.9008 0.0578671 12.869V16.3394C0.0578671 18.9804 0.0436299 21.6251 0.0293924 24.2697C-0.00620153 30.5413 -0.0453548 37.653 0.146852 44.5725C0.232278 47.4413 0.709235 51.6912 2.50317 55.6671C8.4865 68.8938 19.4459 78.3724 36.0006 84.6334C36.6235 84.8754 37.3176 85 38.065 85C39.0795 85 40.1651 84.7686 41.1083 84.3415C53.349 78.9419 61.9521 72.3321 68.1739 63.5404C73.1713 56.4822 75.4742 49.3064 75.2073 41.6004C75.0044 35.6348 75.0542 29.4273 75.1005 23.9458ZM65.273 61.4796C59.4392 69.7231 51.3024 75.952 39.6668 81.0847C38.8872 81.4335 37.8728 81.5403 37.2748 81.3089C21.6313 75.3932 11.3233 66.5268 5.75289 54.2006C4.19744 50.7622 3.78099 47.0071 3.7098 44.4692C3.51403 37.6067 3.55319 30.5307 3.58878 24.2875C3.60302 21.6393 3.61726 18.9876 3.61726 16.3394L3.53895 12.9437C17.8406 14.1895 28.8391 11.1783 37.5169 3.52202C45.0058 10.0357 54.1072 13.2036 65.3477 13.2036C67.3552 13.2036 69.4838 13.1039 71.5838 12.8334V16.2148C71.5838 18.7847 71.5624 21.351 71.5411 23.9244C71.4948 29.4379 71.445 35.6847 71.6514 41.7285C71.8935 48.6195 69.8077 55.0833 65.273 61.4796Z" fill="#" fill-opacity="#"/>
+                                </svg>
+                        </div>
+                        
+                        <h4 class="services-item__title">
+                            Teeth Checkup
+                        </h4>
+                        <p class="services-item__text main-text">
+                        Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth, free of infections. 
+                        </p>
+                        <div class="services__span-wrapper">
+                            <span class="services-item__read">
+                                Read more
+                                
+                            </span>
+                            <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.71436 1L12.7144 6L7.71436 11" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.7144 6H1.28578" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </div>
+                    </a>
+                </div>
+                <div class="services__column">
+                    <a href="#" class="services__item">
+                        <div class="services-item__icon-container">
+                            <svg width="97" height="85" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M48.4811 52.3564C46.2997 51.4888 44.3435 50.1997 42.6676 48.5238C41.4788 47.3339 40.4754 45.9889 39.6821 44.5263C39.1174 43.4787 37.809 43.0875 36.7603 43.6566C35.7138 44.2224 35.3247 45.5308 35.8905 46.5773C36.881 48.4074 38.1345 50.0877 39.6185 51.5718C41.7105 53.6648 44.1571 55.2771 46.8881 56.3614C47.149 56.4659 47.4184 56.5144 47.6825 56.5144C48.5404 56.5144 49.3508 55.9993 49.686 55.1543C50.1279 54.0485 49.588 52.795 48.4811 52.3564Z" fill="#" fill-opacity="#"/>
+                                <path d="M83.4711 56.023C82.3146 54.8654 80.7756 54.2285 79.1384 54.2285C78.2525 54.2285 77.4021 54.43 76.6186 54.7857L71.6619 49.8279C77.553 42.5055 77.9583 32.2009 72.8669 24.4744C73.1848 18.5951 71.5186 13.2439 67.977 8.96518C62.531 2.39183 52.6952 -1.08722 43.5212 0.303107C41.1092 0.659851 38.7348 1.36687 36.4478 2.408C34.1608 1.36687 31.7864 0.658773 29.3808 0.304186C20.195 -1.08507 10.3613 2.39291 4.91643 8.96626C-4.81695 20.7409 1.03213 38.896 12.601 48.4624C13.2282 48.9829 13.5386 49.7503 13.4319 50.5134C11.7765 62.3473 12.2647 70.2496 19.5213 80.5973C20.3318 81.7548 21.387 82.8251 22.7741 83.9104C23.4563 84.4945 24.1569 84.8373 24.9867 84.9698C25.1441 84.9903 25.309 85 25.4814 85C27.0421 85 29.1265 84.1604 29.6589 82.3239C29.8324 81.7376 29.8529 81.0963 29.8119 80.4453C29.8486 80.1985 29.8507 79.9431 29.7958 79.6844C29.729 79.3697 29.6643 79.0809 29.5975 78.7845L29.5845 78.7166C29.5619 78.5948 29.5414 78.4762 29.5166 78.3641C29.5091 78.3286 29.4918 78.2973 29.4821 78.2618C29.3701 77.7714 29.2601 77.3004 29.1545 76.8477C28.3742 73.5152 27.859 71.3133 28.3666 67.5875C28.9389 63.396 32.168 61.3008 34.76 60.7813C37.3704 60.2586 40.8936 60.9549 42.9651 64.4749C45.4321 68.6706 44.2444 74.2837 43.1957 79.2361L43.1009 79.6844C43.0481 79.9345 43.0492 80.1824 43.0826 80.4216C43.0427 81.0629 43.0632 81.7149 43.2367 82.2872C43.7497 84.141 45.8255 84.9914 47.4573 84.9914C47.6437 84.9914 47.8248 84.9806 47.9961 84.958C48.7463 84.834 49.4404 84.4902 50.0471 83.9686C51.4968 82.8326 52.5541 81.7656 53.3829 80.5984C58.7696 72.9171 60.6891 66.4116 60.1621 57.1945C63.2542 56.4088 66.1577 54.9603 68.6377 52.8985L73.575 57.8369C72.5586 60.0926 72.9574 62.8356 74.8079 64.685L86.5061 76.3832C87.6626 77.5407 89.2016 78.1777 90.8388 78.1777C92.4748 78.1777 94.0128 77.5407 95.1703 76.3832C97.5587 73.9948 97.5587 70.1084 95.1703 67.72L83.4711 56.023ZM67.0566 48.5238C63.57 52.0104 58.7523 53.8383 53.8183 53.543C52.6381 53.4686 51.6078 54.375 51.5377 55.5649C51.4666 56.7537 52.3708 57.7743 53.5596 57.8466C53.9929 57.8724 54.4261 57.8854 54.8573 57.8854C55.1978 57.8854 55.5352 57.8509 55.8736 57.8347C56.2681 65.8458 54.5932 71.3629 49.8596 78.1141C49.2981 78.9052 48.5329 79.6726 47.3872 80.579C47.4034 80.3817 47.4357 80.1198 47.4939 79.7749C47.4982 79.7555 47.5025 79.7372 47.5058 79.7178H47.5068L47.5737 79.3675C48.687 74.0692 49.8435 67.6672 46.6813 62.2891C44.0299 57.7819 39.0226 55.5326 33.9118 56.5543C28.6727 57.6062 24.8186 61.7071 24.0965 67.0044C23.4811 71.5203 24.1331 74.3052 24.9587 77.8306C25.0924 78.4008 25.2336 79.013 25.3747 79.6488L25.3898 79.7286C25.3941 79.7469 25.3974 79.7663 25.4017 79.7846C25.4038 79.7933 25.406 79.8019 25.4082 79.8105C25.4599 80.1371 25.4901 80.386 25.5084 80.5757C24.395 79.7017 23.6147 78.9235 23.0554 78.1227C16.5424 68.8377 16.1404 62.2848 17.7031 51.1094C18.0179 48.8568 17.1416 46.6269 15.3525 45.1418C6.70015 37.9853 -0.585609 22.3867 8.23813 11.7124C12.6829 6.34727 21.1121 3.40925 28.7439 4.5657C31.0428 4.9052 33.3093 5.63055 35.48 6.72125C35.5479 6.75574 35.6211 6.77191 35.6912 6.79778C35.771 6.8549 35.8486 6.91525 35.938 6.9616C38.7413 8.44677 41.273 10.5204 43.2626 12.9594C43.6894 13.4821 44.3091 13.7527 44.9342 13.7527C45.4127 13.7527 45.8956 13.5942 46.2965 13.2677C47.218 12.5154 47.3559 11.1574 46.6037 10.2348C45.0668 8.35085 43.2539 6.65766 41.2601 5.21668C42.2182 4.93646 43.1839 4.70797 44.1603 4.56355C51.7791 3.40818 60.2149 6.34727 64.6585 11.7113C66.5155 13.9542 67.7367 16.5807 68.2852 19.4702C64.4829 16.4309 59.8032 14.7701 54.8648 14.7701C49.1063 14.7701 43.6937 17.0129 39.6218 21.0837C34.6511 26.0544 32.4137 33.1612 33.637 40.0913C33.8439 41.2628 34.9637 42.0442 36.1342 41.8395C37.3068 41.6325 38.0892 40.5138 37.8823 39.3422C36.9026 33.796 38.6917 28.1097 42.6687 24.1316C45.9257 20.8746 50.2562 19.0801 54.8626 19.0801C59.468 19.0801 63.7995 20.8746 67.0566 24.1316C73.7797 30.8591 73.7797 41.7996 67.0566 48.5238ZM92.1224 73.3363C91.4348 74.0239 90.2406 74.0218 89.5551 73.3363L77.857 61.6382C77.1499 60.9301 77.1499 59.7779 77.857 59.0709C78.1997 58.7282 78.6556 58.5396 79.1395 58.5396C79.6245 58.5396 80.0804 58.7282 80.4231 59.0709L92.1213 70.7691C92.8294 71.4772 92.8294 72.6282 92.1224 73.3363Z" fill="#" fill-opacity="#"/>
+                                <path d="M54.3109 29.0582C55.4641 26.894 55.3585 24.7729 55.1914 23.7016C55.0082 22.5247 53.8938 21.7217 52.7309 21.9017C51.5539 22.0839 50.7488 23.1864 50.931 24.3623C51.0151 24.9033 51.0722 25.9693 50.5053 27.0298C49.5353 28.8534 47.4498 29.236 47.2148 29.2737C46.039 29.4623 45.2403 30.5681 45.4289 31.744C45.5992 32.8034 46.5143 33.5579 47.5554 33.5579C47.6675 33.5579 47.7839 33.5482 47.8992 33.5298C48.6353 33.4134 52.4022 32.6418 54.3109 29.0582Z" fill="#" fill-opacity="#"/>
+                                <path d="M62.5267 39.6979C61.824 39.4489 58.1488 38.3184 54.7538 40.5461C53.2396 41.5398 52.0519 43.0573 51.4117 44.8184C51.0053 45.9371 51.5819 47.1744 52.7007 47.5807C52.9443 47.6691 53.1932 47.7112 53.4379 47.7112C54.3184 47.7112 55.1451 47.1669 55.4641 46.2917C55.6516 45.7755 56.1161 44.8087 57.1195 44.1513C58.8472 43.0174 60.8594 43.6814 61.0825 43.7622C62.2013 44.1599 63.4375 43.5747 63.8362 42.4527C64.2339 41.3286 63.6476 40.0967 62.5267 39.6979Z" fill="#" fill-opacity="#"/>
+                                <path d="M64.1369 36.068C65.425 36.068 66.4692 35.0238 66.4692 33.7357C66.4692 32.4476 65.425 31.4034 64.1369 31.4034C62.8488 31.4034 61.8046 32.4476 61.8046 33.7357C61.8046 35.0238 62.8488 36.068 64.1369 36.068Z" fill="#" fill-opacity="#"/>
+                                <path d="M44.2487 47.1701C45.5368 47.1701 46.581 46.1259 46.581 44.8378C46.581 43.5497 45.5368 42.5055 44.2487 42.5055C42.9606 42.5055 41.9164 43.5497 41.9164 44.8378C41.9164 46.1259 42.9606 47.1701 44.2487 47.1701Z" fill="#" fill-opacity="#"/>
+                                <path d="M53.1393 37.4023C53.9292 37.4023 54.5695 36.762 54.5695 35.9721C54.5695 35.1822 53.9292 34.5419 53.1393 34.5419C52.3494 34.5419 51.7091 35.1822 51.7091 35.9721C51.7091 36.762 52.3494 37.4023 53.1393 37.4023Z" fill="#" fill-opacity="#"/>
+                                <path d="M60.6708 26.0576C61.625 26.0576 62.3985 25.2841 62.3985 24.3299C62.3985 23.3757 61.625 22.6022 60.6708 22.6022C59.7166 22.6022 58.9431 23.3757 58.9431 24.3299C58.9431 25.2841 59.7166 26.0576 60.6708 26.0576Z" fill="#" fill-opacity="#"/>
+                                <path d="M60.3744 50.5576C61.1643 50.5576 61.8046 49.9172 61.8046 49.1273C61.8046 48.3375 61.1643 47.6971 60.3744 47.6971C59.5845 47.6971 58.9442 48.3375 58.9442 49.1273C58.9442 49.9172 59.5845 50.5576 60.3744 50.5576Z" fill="#" fill-opacity="#"/>
+                                <path d="M42.8185 30.5778C43.6084 30.5778 44.2487 29.9374 44.2487 29.1476C44.2487 28.3577 43.6084 27.7173 42.8185 27.7173C42.0286 27.7173 41.3883 28.3577 41.3883 29.1476C41.3883 29.9374 42.0286 30.5778 42.8185 30.5778Z" fill="#" fill-opacity="#"/>
+                                <path d="M23.1394 8.40149C23.1179 8.40149 23.0974 8.40149 23.0758 8.40149C18.9846 8.40149 15.6694 9.58273 13.2196 11.9129C12.3574 12.7331 12.3239 14.0975 13.1441 14.9608C13.5688 15.4059 14.1368 15.6301 14.7058 15.6301C15.2393 15.6301 15.7739 15.4329 16.1921 15.0363C17.812 13.494 20.1281 12.7126 23.0769 12.7126C23.0963 12.7126 23.1114 12.7137 23.1329 12.7126C24.3207 12.7126 25.2853 11.7512 25.2885 10.5635C25.2917 9.37364 24.3293 8.4058 23.1394 8.40149Z" fill="#" fill-opacity="#"/>
+                                <path d="M12.3541 16.4622C11.2214 16.1065 10.0078 16.7327 9.64892 17.8687C9.28894 19.009 9.02166 20.2549 8.85352 21.5741C8.70156 22.7553 9.53791 23.8342 10.7181 23.985C10.8108 23.9969 10.9024 24.0023 10.994 24.0023C12.0621 24.0023 12.99 23.208 13.1291 22.1194C13.2649 21.0546 13.4761 20.0609 13.7596 19.1663C14.1195 18.0325 13.489 16.8211 12.3541 16.4622Z" fill="#" fill-opacity="#"/>
+                                </svg>
+                                
+                        </div>
+                        
+                        <h4 class="services-item__title">
+                            Dental Crowns
+                        </h4>
+                        <p class="services-item__text main-text">
+                            Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth, free of infections. 
+                        </p>
+                        <div class="services__span-wrapper">
+                            <span class="services-item__read">
+                                Read more
+                                
+                            </span>
+                            <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.71436 1L12.7144 6L7.71436 11" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.7144 6H1.28578" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </div>
+                    </a>
+                </div>
+                <div class="services__column">
+                    <a href="#" class="services__item">
+                        <div class="services-item__icon-container">
+                            <svg width="62" height="85" viewBox="0 0 62 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.58268 31.9808C8.07159 33.2387 9.33817 34.7383 10.3294 36.4167C10.4858 36.6805 10.7082 36.8991 10.9747 37.0509C11.2411 37.2028 11.5426 37.2826 11.8493 37.2827H14.836V44.3519C14.836 44.8206 15.0222 45.2702 15.3536 45.6016C15.6851 45.933 16.1346 46.1192 16.6033 46.1192H21.9052V49.6538H20.1379V53.1884H21.9052V56.7231H20.1379V60.2577H21.9052V63.7923H20.1379V67.3269H21.9052V70.8615H20.1379V74.3961H21.9052V77.9308C21.9052 78.2051 21.9691 78.4757 22.0918 78.7211C22.2145 78.9665 22.3927 79.18 22.6122 79.3446L29.6814 84.6465C29.9873 84.876 30.3594 85 30.7418 85C31.1242 85 31.4963 84.876 31.8022 84.6465L38.8714 79.3446C39.0909 79.18 39.269 78.9665 39.3917 78.7211C39.5144 78.4757 39.5783 78.2051 39.5783 77.9308V74.3961H41.3456V70.8615H39.5783V67.3269H41.3456V63.7923H39.5783V60.2577H41.3456V56.7231H39.5783V53.1884H41.3456V49.6538H39.5783V46.1192H44.8802C45.349 46.1192 45.7985 45.933 46.1299 45.6016C46.4614 45.2702 46.6476 44.8206 46.6476 44.3519V37.2827H49.6343C49.941 37.2826 50.2424 37.2028 50.5089 37.0509C50.7754 36.8991 50.9978 36.6805 51.1542 36.4167C52.1454 34.7383 53.412 33.2387 54.9009 31.9808C56.7852 30.4311 58.3357 28.5154 59.4586 26.3494C60.5815 24.1835 61.2536 21.8124 61.4341 19.3794C61.6146 16.9463 61.2999 14.502 60.5089 12.1941C59.7179 9.88614 58.4671 7.76259 56.8321 5.95178C55.1972 4.14098 53.2119 2.68055 50.9965 1.65877C48.7811 0.636983 46.3815 0.0750788 43.9427 0.00702239C41.5039 -0.061034 39.0767 0.366171 36.8077 1.26281C34.5388 2.15945 32.4752 3.5069 30.7418 5.2237C29.0084 3.5069 26.9448 2.15945 24.6758 1.26281C22.4069 0.366171 19.9796 -0.061034 17.5409 0.00702239C15.1021 0.0750788 12.7025 0.636983 10.4871 1.65877C8.27163 2.68055 6.28641 4.14098 4.65143 5.95178C3.01645 7.76259 1.76565 9.88614 0.974672 12.1941C0.183689 14.502 -0.131056 16.9463 0.0494647 19.3794C0.229986 21.8124 0.902022 24.1835 2.02495 26.3494C3.14787 28.5154 4.69836 30.4311 6.58268 31.9808ZM36.0437 77.0294L30.7418 81.0059L25.4399 77.0294V74.3961H36.0437V77.0294ZM36.0437 70.8615H25.4399V67.3269H36.0437V70.8615ZM36.0437 63.7923H25.4399V60.2577H36.0437V63.7923ZM36.0437 56.7231H25.4399V53.1884H36.0437V56.7231ZM36.0437 49.6538H25.4399V46.1192H36.0437V49.6538ZM43.1129 42.5846H18.3706V37.2827H43.1129V42.5846ZM3.93172 15.6508C4.4283 12.9334 5.69029 10.4142 7.56935 8.38937C9.4484 6.36451 11.8664 4.91813 14.5392 4.22023C17.212 3.52233 20.0285 3.60192 22.6576 4.44965C25.2868 5.29737 27.6192 6.878 29.381 9.00574C29.5468 9.20587 29.7547 9.36696 29.9899 9.47753C30.2252 9.5881 30.4819 9.64543 30.7418 9.64543C31.0017 9.64543 31.2584 9.5881 31.4936 9.47753C31.7288 9.36696 31.9368 9.20587 32.1026 9.00574C33.3748 7.42359 34.9648 6.12603 36.7699 5.19693C38.575 4.26783 40.555 3.72788 42.5819 3.61198C44.6087 3.49608 46.6374 3.80683 48.5366 4.52411C50.4358 5.2414 52.1634 6.34927 53.6076 7.77609C55.0519 9.20292 56.1806 10.9169 56.9208 12.8073C57.6611 14.6977 57.9964 16.7225 57.9051 18.7506C57.8138 20.7787 57.2978 22.7651 56.3907 24.5813C55.4835 26.3975 54.2053 28.0032 52.6387 29.2944C51.102 30.5759 49.7621 32.0765 48.6623 33.7481H12.8213C11.7228 32.0702 10.3829 30.5636 8.84483 29.2768C6.89542 27.6418 5.41386 25.5197 4.55086 23.1263C3.68787 20.7329 3.47424 18.1536 3.93172 15.6508Z" fill="#" fill-opacity="#"/>
+                                <path d="M43.5016 10.7731L40.992 8.22815C39.6545 9.59037 38.0595 10.6731 36.2998 11.4134C34.5401 12.1537 32.6507 12.5368 30.7417 12.5404C28.8375 12.546 26.9512 12.1741 25.1917 11.446C23.4323 10.718 21.8347 9.64829 20.4913 8.29884L17.9817 10.7731C19.6519 12.4573 21.6398 13.7932 23.8301 14.7033C26.0205 15.6134 28.3697 16.0797 30.7417 16.075C33.1136 16.0797 35.4628 15.6134 37.6532 14.7033C39.8436 13.7932 41.8315 12.4573 43.5016 10.7731Z" fill="#" fill-opacity="#"/>
+                                </svg>
+                                
+                        </div>
+                        
+                        <h4 class="services-item__title">
+                            Teeth Implants
+                        </h4>
+                        <p class="services-item__text main-text">
+                            Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth, free of infections. 
+                        </p>
+                        <div class="services__span-wrapper">
+                            <span class="services-item__read">
+                                Read more
+                                
+                            </span>
+                            <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.71436 1L12.7144 6L7.71436 11" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.7144 6H1.28578" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="doctors">
+        <div class="container">
+            <span class="doctors__subtitle subtitle">
+                Our Doctors
+            </span>
+            <h2 class="doctors__title">
+                Team Of Professionals
+            </h2>
+            <p class="doctors__text main-text">
+                Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth free of infections, injuries and other problems with.
+            </p>
+            <div class="doctors__row">
+                <div class="doctors__column">
+                    <div class="doctors__item">
+                        <div class="doctors__img-container">
+                            <img src="img/doctor1.jpg" alt="">
+                        </div>
+                        <div class="doctors__descript">
+                            <img src="img/doctors-icon.svg" alt="">
+                            <div class="doctors__desc-info">
+                                <h5 class="doctors__item-title">
+                                    Dr. Rana Roy
+                                </h5>
+                                <p class="doctors__item-text">
+                                    Dental Crown
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors__column">
+                    <div class="doctors__item">
+                        <div class="doctors__img-container">
+                            <img src="img/doctor2.jpg" alt="">
+                        </div>
+                        <div class="doctors__descript">
+                            <img src="img/doctors-icon.svg" alt="">
+                            <div class="doctors__desc-info">
+                                <h5 class="doctors__item-title">
+                                    Dr. Michel Roy
+                                </h5>
+                                <p class="doctors__item-text">
+                                    Teeth Checkup
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors__column">
+                    <div class="doctors__item">
+                        <div class="doctors__img-container">
+                            <img src="img/doctor3.jpg" alt="">
+                        </div>
+                        <div class="doctors__descript">
+                            <img src="img/doctors-icon.svg" alt="">
+                            <div class="doctors__desc-info">
+                                <h5 class="doctors__item-title">
+                                    Dr. John Roy
+                                </h5>
+                                <p class="doctors__item-text">
+                                    Teeth Implants
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="statistics">
+        <div class="container">
+            <div class="statistics__row">
+                <div class="statistics__item">
+                    <h2 class="statistics__num">
+                        20
+                    </h2>
+                    <p class="statistics__text main-text">
+                        Course Published
+                    </p>
+                </div>
+                <div class="statistics__item">
+                    <h2 class="statistics__num">
+                        120
+                    </h2>
+                    <p class="statistics__text main-text">
+                        Qualified Staff
+                    </p>
+                </div>
+                <div class="statistics__item">
+                    <h2 class="statistics__num">
+                        550
+                    </h2>
+                    <p class="statistics__text main-text">
+                        Happy Patient
+                    </p>
+                </div>
+                <div class="statistics__item">
+                    <h2 class="statistics__num">
+                        20
+                    </h2>
+                    <p class="statistics__text main-text">
+                        Years Of Experience
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="steps">
+        <div class="container">
+            <div class="steps__wrapper">
+                <div class="steps__info">
+                    <h2 class="steps__title">
+                        Easy Steps
+                    </h2>
+                    <p class="steps__text main-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    </p>
+                    <div class="steps__item">
+                        <div class="steps__num st-title">
+                            1
+                        </div>
+                        <div class="steps__step">
+                            <div class="step__subtitle st-title">
+                                Select Your Doctor
+                            </div>
+                            <div class="step__subtext main-text">
+                                Lorem ipsum dolor sit amet,sectetur adipiselit sed temp incididunt ut labore.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__num st-title">
+                            2
+                        </div>
+                        <div class="steps__step">
+                            <div class="step__subtitle st-title">
+                                Make an Appoinment
+                            </div>
+                            <div class="step__subtext main-text">
+                                Lorem ipsum dolor sit amet,sectetur adipiselit sed temp incididunt ut labore.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__num st-title">
+                            3
+                        </div>
+                        <div class="steps__step">
+                            <div class="step__subtitle st-title">
+                                Meet your Doctor
+                            </div>
+                            <div class="step__subtext main-text">
+                                Lorem ipsum dolor sit amet,sectetur adipiselit sed temp incididunt ut labore.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="steps__image">
+                    <img src="img/steps.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="appointment">
+        <div class="container">
+            <h2 class="appointment__title">
+                Make an Appointment
+            </h2>
+            <p class="appointment__text main-text">
+                ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth free of infections, injuries and other problems with.
+            </p>
+            <div class="appointment__wrapper">
+                <form class="appointment__form-flex">
+                    <p>Appointment</p>
+                    <input type="text" placeholder="Patient Name" class="form__styles" name="username" tabindex="1" required>
+
+                    <select class="form__styles form--text" name="gender" tabindex="2">
+                        <option value="Gender" hidden>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+
+                    <input class="form__styles" type="tel" placeholder="Phone number" name="phone" tabindex="3" required>
+
+                    <input class="form__styles" type="email" placeholder="Email" name="email" tabindex="4" required>
+
+                    <select class="form__styles form--text" name="department" tabindex="5">
+                        <option value="Deparment" hidden>Deparment</option>
+                        <option value="red">Dental Crown</option>
+                        <option value="blue">Teeth Checkup</option>
+                        <option value="yellow">Teeth Implants</option>
+                    </select>
+
+                    <select class="form__styles form--text" name="doctor" tabindex="6">
+                        <option value="Doctor" hidden>Doctor</option>
+                        <option value="red">Dr. Rana Roy</option>
+                        <option value="blue">Dr. Michel Roy</option>
+                        <option value="yellow">Dr. John Roy</option>
+                    </select>
+
+                    <textarea class="form__styles" placeholder="More details" name="text" tabindex="7"></textarea>
+                    <div class="button__container">
+                       <button type="submit" class="appointment__btn btn" tabindex="8">Send Message</button> 
+                    </div>
+                    
+                </form>
+                <div class="appoinment__image">
+                    <img src="img/appointment.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h2 class="reviews__title">
+                Reviews From Our Patient.
+            </h2>
+            <p class="reviews__text main-text">
+                We believe that focus and our associated programs are most instrumental in reducing readmissions and managing. 
+            </p>
+            <div class="reviews__row">
+                <div class="reviews__column">
+                    <div class="reviews__item">
+                        <img src="img/rev1.png" alt="">
+                        <h6 class="rev__item-title">
+                            Andrew Smith 
+                        </h6>
+                        <p class="rev__item-text">
+                            Lorem ipsum dolor sit amet, consec adipis. Cursus ultricies sit sit ultricies sit sit dolo
+                        </p>
+                        <div class="rev__item-rate">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate-dis.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__column">
+                    <div class="reviews__item">
+                        <img src="img/rev2.png" alt="">
+                        <h6 class="rev__item-title">
+                            Andrew Smith 
+                        </h6>
+                        <p class="rev__item-text">
+                            Lorem ipsum dolor sit amet, consec adipis. Cursus ultricies sit sit ultricies sit sit dolo
+                        </p>
+                        <div class="rev__item-rate">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__column">
+                    <div class="reviews__item">
+                        <img src="img/rev3.png" alt="">
+                        <h6 class="rev__item-title">
+                            Andrew Smith 
+                        </h6>
+                        <p class="rev__item-text">
+                            Lorem ipsum dolor sit amet, consec adipis. Cursus ultricies sit sit ultricies sit sit dolo
+                        </p>
+                        <div class="rev__item-rate">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                            <img src="img/rev_rate.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <div class="news__wrapper">
+                <h3 class="news__title">
+                    Our Newsletter
+                </h3>
+                <p class="news__text main-text">
+                    ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth free of infections, injuries and other problems with.
+                </p>
+                <div class="news__email">
+                    <div class="email__wrapper">
+                        <form action="#">
+                            <input type="email" placeholder="Enter your email" name="usermail" required>
+                            <button class="news__btn btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info">
+                Copyright © 2020 All rights Reserved - Dental
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
